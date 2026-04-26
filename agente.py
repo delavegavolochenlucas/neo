@@ -90,3 +90,4 @@ while True:
         historico = comprimir_historico(historico)
 
     salvar_historico(historico)
+
