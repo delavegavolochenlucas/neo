@@ -202,3 +202,4 @@ def comprimir_historico(historico):
     ]
 
     return par_resumo + historico[-MENSAGENS_RECENTES:]
+
