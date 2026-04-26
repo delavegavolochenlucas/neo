@@ -75,3 +75,4 @@ def chat():
 if __name__ == "__main__":
     # debug=True reinicia o servidor automaticamente ao salvar o arquivo
     app.run(debug=True)
+
