@@ -3,7 +3,8 @@
     "allow": [
       "Bash(pip install *)",
       "Bash(pip show *)",
-      "Bash(git -C c:/Users/lucas/python rev-parse --show-toplevel)"
+      "Bash(git -C c:/Users/lucas/python rev-parse --show-toplevel)",
+      "Bash(git -C c:/Users/lucas/python status --short)"
     ]
   }
 }
