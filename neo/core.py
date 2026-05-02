@@ -207,7 +207,9 @@ def analisar_dados():
 # - Resumo das últimas sessões de estudo
 def construir_system(estado):
     # Lê o texto base do arquivo externo, que é ignorado pelo git para não expor dados pessoais
-    with open(os.path.join(_BASE_DIR, "system_prompt.txt"), "r", encoding="utf-8") as f:
+    _secrets = "/etc/secrets/system_prompt.txt"
+    _local = os.path.join(_BASE_DIR, "system_prompt.txt")
+    with open(_secrets if os.path.exists(_secrets) else _local, "r", encoding="utf-8") as f:
         base = f.read().strip()
 
     # Injeta data, hora e bloco atual da rotina no contexto
