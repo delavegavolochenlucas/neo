@@ -4,7 +4,9 @@
       "Bash(pip install *)",
       "Bash(pip show *)",
       "Bash(git -C c:/Users/lucas/python rev-parse --show-toplevel)",
-      "Bash(git -C c:/Users/lucas/python status --short)"
+      "Bash(git -C c:/Users/lucas/python status --short)",
+      "Bash(git -C c:/Users/lucas/python rm --cached condicionais.py conjunto.py dicionario.py funcao.py inputs.py listaedicionario.py listas.py loops.py teste.py testedois.py variaveis.py estado.json historico.json render.yaml .gitignore.bak)",
+      "Bash(git -C c:/Users/lucas/python rm -r --cached __pycache__/)"
     ]
   }
 }

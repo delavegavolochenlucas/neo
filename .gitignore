@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de exercício / rascunho na raiz
+*.py
+!neo/
+
+# Render (configurado pelo dashboard)
+render.yaml
+
+# Dados e estado local
+estado.json
+historico.json
+*.bak
+
+# Banco e segredos dentro de neo/
+neo/dados.db
+neo/system_prompt.txt
+neo/.env
